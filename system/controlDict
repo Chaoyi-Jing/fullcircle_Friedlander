@@ -17,13 +17,13 @@ FoamFile
 
 application     blastFoam;
 
-startFrom       startTime;
+startFrom      	startTime;
 
 startTime       0;
 
-stopAt          endTime;
+stopAt          writeNow;
 
-endTime         2.0e-5;
+endTime         1.0e-5;
 
 writeControl    adjustableRunTime;
 

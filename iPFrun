@@ -18,7 +18,7 @@ cp -r system $IPFOAM_DIR/system
 # remove old createFields file and replace with case template
 cd $IPFOAM_DIR
 rm createFields.H
-cp History/Validation/cyl_rmi/lambda_study/aug2025_n12_shot12_friedlanderGPT.H createFields.H
+cp History/Experimental/cyl_cav_rmi/single_cavity/single_arccav16.H createFields.H
 
 # open iPF and generate fields
 cd $IPFOAM_DIR
